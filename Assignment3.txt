@@ -1,0 +1,20 @@
+public class output {
+    public static int expression(int x, int y){ 
+        
+ 
+ // Code to swap 'x' and 'y'
+  x = x + y;  // x now becomes 15
+  y = x - y;  // y becomes 10
+  x = x - y;  // x becomes 5
+ 
+  System.out.println("new x value =" +x );
+  System.out.println("new y value =" +y );
+  return 0;
+    }
+      
+     public static void main(String []args){
+        int a,b;
+        expression(20,10);
+        
+     }
+}
